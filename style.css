@@ -2,10 +2,11 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 0px 200px;
 }
 
 .header-cont {
-    background: rgb(41, 40, 40);
+    background: #1f2937;
     height: 500px;
     width: 100%;
 }
@@ -14,6 +15,8 @@ body {
     background: aliceblue;
     width: 100%;
     height: 500px;
+    display: flex;
+    flex-direction: column;
 }
 
 .div3 {
@@ -33,3 +36,93 @@ body {
     width: 100%;
     height: 100px;
 }
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+#header-logo {
+    color: #f9faf8;
+    font-size: 24px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6x;
+}
+
+.header-div {
+    height: 200px;
+    display: flex;
+    padding: 0px 180px;
+    margin-top: 50px;
+}
+
+.hd-left {
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 50%;
+    justify-content: center;
+    gap: 10px;
+}
+
+button {
+    background: #3882f6;
+    padding: 6px 28px;
+    border-radius: 9px;
+    font-size: medium;
+    color: white;
+    font-weight: bold;
+}
+
+.hd-right {
+    width: 330.317px;
+    height: 220px;
+    margin-top: 40px;
+}
+
+.imgcont {
+    height: 300px;
+    width: 200px;
+    gap: 20px;
+}
+
+.oct {
+    height: 200px;
+    width: 200px;
+}
+
+.d2hd {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.d2cont {
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    display: flex;
+}
+
+
+/*div number 3*/
+.d2cont div {
+    color: #970887;
+    font-weight: 900;
+}
+
+.
