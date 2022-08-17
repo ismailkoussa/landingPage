@@ -60,6 +60,7 @@ button {
     font-size: medium;
     color: white;
     font-weight: bold;
+    border: none;
 }
 
 .hd-right {
@@ -123,6 +124,7 @@ button {
     width: 800px;
     display: flex;
     flex-direction: column;
+    border-radius: 12px;
 }
 
 .d3text {
@@ -139,22 +141,56 @@ button {
 }
 
 
-/*later work*/
-
-
-
-
-
-
-
+/*div4*/
 .div4 {
     background: white;
     width: 100%;
-    height: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
+.d4cont {
+    height: 150px;
+    width: 1100px;
+    background: #3882f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.d4text {
+    color: #f9faf8;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.d4left {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.d4right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#b4 {
+    border: 2px solid white;
+}
+
+
+/*footer*/
 .footer {
-    background: rgb(41, 40, 40);
+    background: #1f2937;
     width: 100%;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    font-size: 16px;
 }
